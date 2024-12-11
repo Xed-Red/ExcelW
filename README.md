@@ -24,9 +24,13 @@
 
 ### 1. Сборка проекта:
 Для сборки проекта используйте Gradle. В терминале выполните команду:
+```bash
 gradle build
+```
 ### 2. Запуск приложения:
 После сборки, для запуска приложения выполните команду:
+```bash
 java --module-path .\libs\javafx-sdk-17.0.13\lib\ --add-modules javafx.controls,javafx.fxml -jar .\build\libs\excel-1.0-SNAPSHOT.jar
+```
 ### 3. Генерация отчета:
 После загрузки данных, можно сгенерировать отчет, который будет сохранен в файл analysis_results.xlsx.
