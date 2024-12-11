@@ -28,7 +28,7 @@
 gradle build
 ```
 ### 2. Запуск приложения:
-После сборки, для запуска приложения выполните команду:
+После сборки, для запуска приложения необходимо распаковатьь архив bin в \libs\javafx-sdk-17.0.13\ и в корне проекта выполнить команду:
 ```bash
 java --module-path .\libs\javafx-sdk-17.0.13\lib\ --add-modules javafx.controls,javafx.fxml -jar .\build\libs\excel-1.0-SNAPSHOT.jar
 ```
